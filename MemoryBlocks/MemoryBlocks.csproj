@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{3A9E7786-28A1-4973-94FE-7A069D8C7C75}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MemoryBlocks</RootNamespace>
+    <AssemblyName>MemoryBlocks</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="gtk-sharp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="gdk-sharp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="glib-sharp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="glade-sharp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="pango-sharp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="atk-sharp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Mono.Posix" />
+    <Reference Include="gtk-dotnet, Version=2.4.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="gtk-gui\gui.stetic">
+      <LogicalName>gui.stetic</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Pieces\piece0.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece1.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece2.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece3.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece4.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece5.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece6.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece7.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece8.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece9.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece10.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece11.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece12.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece13.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece14.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece15.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece16.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece17.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece18.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece19.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece20.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece21.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece22.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece23.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece24.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece25.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece26.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece27.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece28.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece29.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece30.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece31.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece32.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece33.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece34.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece35.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece36.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece37.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece38.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece39.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece40.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece41.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece42.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece43.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece44.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece45.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece46.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece47.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece48.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece49.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece50.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece51.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece52.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece53.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece54.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece55.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece56.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece57.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece58.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece59.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece60.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece61.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece62.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece63.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece64.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece65.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece66.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece67.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece68.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece69.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece70.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece71.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece72.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece73.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece74.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece75.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece76.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece77.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece78.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece79.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece80.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece81.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece82.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece83.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece84.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece85.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece86.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece87.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece88.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece89.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece90.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece91.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece92.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece93.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece94.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece95.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece96.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece97.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece98.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece99.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece100.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece101.png" />
+    <EmbeddedResource Include="Resources\Pieces\piece102.png" />
+    <EmbeddedResource Include="Resources\memoryblocks.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="gtk-gui\generated.cs" />
+    <Compile Include="MainWindow.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Game\GameTable.cs" />
+    <Compile Include="Game\Piece.cs" />
+    <Compile Include="Game\GameEngine.cs" />
+    <Compile Include="Utils\Extensions.cs" />
+    <Compile Include="gtk-gui\MemoryBlocks.MainWindow.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Game\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Resources\Pieces\" />
+  </ItemGroup>
+</Project>

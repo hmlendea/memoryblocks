@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="gtk-dotnet, Version=3.0.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Debug/MemoryBlocks.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MemoryBlocks.MainWindow" design-size="480 567">
+    <action-group name="Default">
+      <action id="GameAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Game</property>
+        <property name="ShortLabel" translatable="yes">Game</property>
+      </action>
+      <action id="actGame">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Game</property>
+        <property name="ShortLabel" translatable="yes">Game</property>
+      </action>
+      <action id="actNewGame">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">New Game</property>
+        <property name="ShortLabel" translatable="yes">New Game</property>
+        <property name="StockId">gtk-new</property>
+      </action>
+      <action id="actEasy">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Easy</property>
+        <property name="ShortLabel" translatable="yes">Easy</property>
+        <signal name="Activated" handler="OnActEasyActivated" />
+      </action>
+      <action id="actModerate">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Moderate</property>
+        <property name="ShortLabel" translatable="yes">Moderate</property>
+        <signal name="Activated" handler="OnActModerateActivated" />
+      </action>
+      <action id="actHard">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Hard</property>
+        <property name="ShortLabel" translatable="yes">Hard</property>
+        <signal name="Activated" handler="OnActHardActivated" />
+      </action>
+      <action id="actHelp">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Help</property>
+        <property name="ShortLabel" translatable="yes">Help</property>
+      </action>
+      <action id="diAbout">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">About</property>
+        <property name="ShortLabel" translatable="yes">About</property>
+        <property name="StockId">gtk-dialog-info</property>
+        <signal name="Activated" handler="OnDiAboutActivated" />
+      </action>
+      <action id="actRetry">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Retry</property>
+        <property name="ShortLabel" translatable="yes">Retry</property>
+        <property name="StockId">gtk-undo</property>
+        <signal name="Activated" handler="OnActRetryActivated" />
+      </action>
+    </action-group>
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MemoryBlocks</property>
+    <property name="Icon">resource:MemoryBlocks.Resources.memoryblocks.ico</property>
+    <property name="WindowPosition">Center</property>
+    <property name="Gravity">Center</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.VBox" id="vbox2">
+        <property name="MemberName" />
+        <child>
+          <widget class="Gtk.MenuBar" id="menuBar">
+            <property name="MemberName" />
+            <node name="menuBar" type="Menubar">
+              <node type="Menu" action="actGame">
+                <node type="Menu" action="actNewGame">
+                  <node type="Menuitem" action="actEasy" />
+                  <node type="Menuitem" action="actModerate" />
+                  <node type="Menuitem" action="actHard" />
+                </node>
+                <node type="Menuitem" action="actRetry" />
+              </node>
+              <node type="Menu" action="actHelp">
+                <node type="Menuitem" action="diAbout" />
+              </node>
+            </node>
+          </widget>
+          <packing>
+            <property name="Position">0</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.DrawingArea" id="daInfoBar">
+            <property name="MemberName" />
+            <property name="HeightRequest">64</property>
+          </widget>
+          <packing>
+            <property name="Position">1</property>
+            <property name="AutoSize">True</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.DrawingArea" id="daTable">
+            <property name="MemberName" />
+            <property name="WidthRequest">480</property>
+            <property name="HeightRequest">480</property>
+            <signal name="ButtonPressEvent" handler="OnDaTableButtonPressEvent" />
+          </widget>
+          <packing>
+            <property name="Position">2</property>
+            <property name="AutoSize">True</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
