@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>PackagingProject</ItemType>
+    <ProjectGuid>{C88B48AB-778A-43EC-9D8B-6DEC8E1B4033}</ProjectGuid>
+    <Packages>
+      <Packages>
+        <Package name="Linux Binaries">
+          <Builder targetFile="MemoryBlocks\MemoryBlocks-Linux-x86.tar.gz" platform="Linux" configuration="Release|x86" ctype="BinariesZipPackageBuilder">
+            <RootEntry path="MemoryBlocks\MemoryBlocks.csproj" />
+          </Builder>
+        </Package>
+        <Package name="Microsoft Windows Binaries">
+          <Builder targetFile="MemoryBlocks\MemoryBlocks-Windows-x86.zip" platform="Windows" configuration="Debug|x86" ctype="BinariesZipPackageBuilder">
+            <RootEntry path="MemoryBlocks\MemoryBlocks.csproj" />
+          </Builder>
+        </Package>
+      </Packages>
+    </Packages>
+  </PropertyGroup>
+</Project>

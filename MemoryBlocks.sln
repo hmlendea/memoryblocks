@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryBlocks", "MemoryBlocks\MemoryBlocks.csproj", "{3A9E7786-28A1-4973-94FE-7A069D8C7C75}"
 EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Packages", "Packages.mdproj", "{C88B48AB-778A-43EC-9D8B-6DEC8E1B4033}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,7 @@ Global
 		{3A9E7786-28A1-4973-94FE-7A069D8C7C75}.Debug|x86.Build.0 = Debug|x86
 		{3A9E7786-28A1-4973-94FE-7A069D8C7C75}.Release|x86.ActiveCfg = Release|x86
 		{3A9E7786-28A1-4973-94FE-7A069D8C7C75}.Release|x86.Build.0 = Release|x86
+		{C88B48AB-778A-43EC-9D8B-6DEC8E1B4033}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C88B48AB-778A-43EC-9D8B-6DEC8E1B4033}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 EndGlobal
