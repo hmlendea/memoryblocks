@@ -16,3 +16,9 @@ Development environment: MonoDevelop
 
 Operating Systems: Linux
 
+## 🛡️ Privacy and Data
+
+Memory Blocks is a local desktop tile-matching puzzle game with no personal data collection, network communication, or external integrations.
+
+For the detailed description of how the application handles privacy and personal data, see [PRIVACY.md](./PRIVACY.md).
+
