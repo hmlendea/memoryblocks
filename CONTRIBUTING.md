@@ -94,7 +94,7 @@ No automated test suite exists. Test manually by running the application and ver
 
 ## 📋 Code of Conduct
 
-This project follows the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
+This project follows the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
 
 ## 🔒 Security
 
