@@ -16,6 +16,10 @@ Development environment: MonoDevelop
 
 Operating Systems: Linux
 
+## 📜 Code of Conduct
+
+This project follows the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
+
 ## 🤝 Contributing
 
 Contributions are welcome. See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
