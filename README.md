@@ -17,6 +17,7 @@ Memory Blocks is a local desktop tile-matching puzzle game implemented in C# tar
   - [Run](#run)
 - [Architecture](#-architecture)
 - [Usage](#-usage)
+- [Roadmap](#-roadmap)
 - [Documentation](#-documentation)
 - [Privacy and Data](#-privacy-and-data)
 - [Contributing](#-contributing)
@@ -95,6 +96,10 @@ mono MemoryBlocks/bin/Debug/MemoryBlocks.exe
 ```
 
 Click on tiles to flip them. Match pairs to clear the board.
+
+## 🗺️ Roadmap
+
+See [ROADMAP.md](./ROADMAP.md) for planned work and forthcoming changes.
 
 ## 📚 Documentation
 
