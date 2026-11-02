@@ -24,9 +24,14 @@ This project follows the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
 
 Contributions are welcome. See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
+## 🏗️ Architecture
+
+Memory Blocks is a local desktop tile-matching puzzle game built with an event-driven Model-View-Presenter (MVP) architecture using C#, Mono, and GTK# 2.12.
+
+See the [ARCHITECTURE.md](./ARCHITECTURE.md) for the system context, principal components, runtime flows, ownership boundaries, dependencies, constraints, and extension points.
+
 ## 🛡️ Privacy and Data
 
 Memory Blocks is a local desktop tile-matching puzzle game with no personal data collection, network communication, or external integrations.
 
 For the detailed description of how the application handles privacy and personal data, see [PRIVACY.md](./PRIVACY.md).
-
