@@ -98,7 +98,7 @@ This project follows the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
 
 ## 🔒 Security
 
-Report security vulnerabilities by opening a private security advisory on GitHub or emailing the maintainers directly.
+Report security vulnerabilities per the [SECURITY.md](./SECURITY.md).
 
 ## 📄 License
 
