@@ -16,6 +16,10 @@ Development environment: MonoDevelop
 
 Operating Systems: Linux
 
+## 🤝 Contributing
+
+Contributions are welcome. See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
 ## 🛡️ Privacy and Data
 
 Memory Blocks is a local desktop tile-matching puzzle game with no personal data collection, network communication, or external integrations.
